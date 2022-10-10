@@ -1,0 +1,17 @@
+{
+  "name": "simple-web-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.js",
+    "dev": "node build/dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.10",
+    "http-server": "^14.1.1"
+  }
+}
